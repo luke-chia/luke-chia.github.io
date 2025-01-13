@@ -1,0 +1,26 @@
+
+
+Caso de Carlos
+    - No esta liqudiado pero en safi si
+    - 
+
+como lleva el pago al ciclo anterior, sale en algun reporte
+
+Tipos de Aclaraciones
+    Ciclo anterior                                      
+    Inexistente
+    Otro Grupo
+    Liquidaciones por Centavos
+    Ajustes Defuncion               - Ajuste Manual
+
+
+Enrollment
+
+    SOAP alta cliente
+         a veces no funciona correctamente
+
+    Se manda de dar de alta un clienet de cartera, replica en captacion
+    No hay correo o telefono.
+
+    MA, utiliza asincronos y solo se replica en cartera. Ver eso con Carlos
+    Hay un mo
