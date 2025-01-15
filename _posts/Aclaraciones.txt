@@ -1,4 +1,35 @@
+https://luke-chia.github.io/
 
+Ya estamos gestionando solicitudes de servicio de soporte a Desarrollo
+a traves de la herramienta de FreshDesk.
+
+Traemos una Deuda Tecnica y Funcional, y temas por resolver. Reportes y Concilaciones
+Como que Spi y Coppel no acepta nuestros bines Credito y Debito ya se ingreso el tema
+con el Buzon de Banxico que se llama Casp, con apoyo de Andrea Pablo en cargada de normatividad en la parte de SPEI
+
+Este viernes se instala en produccion, y esperamos estar operando primeros F&F proxima semana
+Aqui se van a requerir mas fases por espacio de 2 a 4 sprints para fortalecer la solucion
+ya se probo con la parte usuaria o de negocio y con los contadores.
+
+Fira, le debemos 2 cosas, mañana 15 tenemos sesion con Fira para mistrar 1 de las 2 actividades Pendientes
+Que es el control automatizado de los creditos que nos otorgan, ya subimos a produccion los 16 creditos
+que suma 100 millones de pesos, no solo para cumplir si no es una eficienca operativa el no llevar en exceles 
+los creditos y con polizas manuales. 
+
+Conciliaciones, es todo un tema
+    - Estamos mapeando todo el proceso y ecosistema de pagos. Documentarlo y propones ajutes y mejoras
+    - En lo que va del mes van ajustes hasta por 4 millones de aclaraciones que solo gestionan en Sierra 2.0
+      Construimos un Reporte para detectar esto en Sierra. Estos ctes tiene afectado su buro de credito
+      estamos reservando demas, y seguimos ampliando el descuadre.
+    
+    En caso de defuncion ingresan un pago por el total del credito en Sierra
+    En lugar de ir al core hacer un rompimiento del grupo para excluir a la persona que fallecio
+    y posterior hacer la cancelacion del credito con clave de defuncion, el cual hace todo lo operativo y contable.
+
+Investigar Herramienta "Segments". Guía de estilos de Segments
+SigNoz Monitoring
+
+Metricas de SPEI, de transaccionalidad y negocio
 
 Caso de Carlos
     - No esta liqudiado pero en safi si
@@ -13,6 +44,8 @@ Tipos de Aclaraciones
     Liquidaciones por Centavos
     Ajustes Defuncion               - Ajuste Manual
 
+Llavero de iCloud usa encriptación de extremo a extremo
+Se debe actualizar la configuración de tu Apple ID para que esta MacBook Pro pueda usar encriptación de extremo a extremo.
 
 Enrollment
 
@@ -23,4 +56,16 @@ Enrollment
     No hay correo o telefono.
 
     MA, utiliza asincronos y solo se replica en cartera. Ver eso con Carlos
-    Hay un mo
+    Hay un monton de ctes que existe en cartera y no en captacion
+
+    Hay un proceso de migracion se ctes, codigo de verificaciond e cte
+    ID unico, curp o rfc
+
+    Actualice el Core
+
+    Hay que utilizar el REST
+
+luke-chia.github.io
+
+Jesica, Carlos, Pattzy, Jose Luis, Arturo, Clarivel
+Externo en asignacion Vladimir
