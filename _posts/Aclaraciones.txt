@@ -1,3 +1,47 @@
+
+Optimizacion del Core
+    - Participacion en la creacion del Hub Orquestador de SPEI.
+    Un middleware entre KarPay y el Core, el cual nos ayuda en la independencia de SAFI en el servicio de
+    envio y Recepcion de Transferencias SPEI. Conexion en linea con el datawhareouse de todo lo que Sucede
+    en SPEI, lo que nos permite ver en tiempo real transacciones y monitoring.
+
+    - En la idependencia del proveedor del Core Safi, se creo una celula interna en CC
+    para atender la demanda de las iniciativas. Las liberaciones y entrega de funcionalidades actualmemnte
+    es 80% realizado por el Equipo Interno y 20% el Proveedor.
+
+    - Se desarrollo e implemento un Sistema de Prevención de Fraudes, desacoplado del Core
+    para el analisis de las transacciones SPEI, el cual complementa al hub de servicios.
+
+    - Se creo una Capa de API's para banca digital (Credi Club App), agnosticas al core SAFI.
+
+    - Como optimizaciones generales, de resideño el estado de cuenta unico, para generarlo en 8hrs en lugar del mes que tomaba anteriormente.
+    También se lograron eficiencias en las constancias de retencion de ya se pueden generar en produccion al dia de hoy, en años pasados
+    se generaban fuera de tiempo con meses de retraso posterior al normativo de 31 de Enero. Estos procesos estan fuera de Safi
+    y se podrian conectar a otro core bancario.
+
+
+Automation of Secondary Processes
+
+    Proceso de Recepcion de Pagos
+        - Se habilito el canal de pagos a creditos individuales, TDC y Creditos Grupales via SPEI.
+        - Se desacoplo del core safi la generación de la cuenta clabe a un servicio externo realizado por el Team CC
+        - 
+
+
+Compartir Casos Cukie
+
+export PATH=$PATH:<path to liquibase installation>
+
+You should set the environment variable LIQUIBASE_HOME to
+  /usr/local/opt/liquibase/libexec
+
+export PATH=$PATH:/usr/local/opt/liquibase/libexec
+
+
+https://www.liquibase.com/gitops
+https://www.liquibase.com/download
+https://docs.liquibase.com/start/home.html
+
 https://luke-chia.github.io/
 
 Ya estamos gestionando solicitudes de servicio de soporte a Desarrollo
